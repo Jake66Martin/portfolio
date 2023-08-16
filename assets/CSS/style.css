@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.lightning {
+    width: 100%;
+    height: 300px;
+    background-image: url("../Images/lightning.jpg");
+    background-size: cover;
+    background-position: center;
+   
+    
+}
