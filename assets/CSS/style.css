@@ -18,13 +18,9 @@ nav {
 }
 
 nav p {
-    /* width: 33%; */
     color: white;
     font-size: 50px;
     font-family: 'helvetica', 'arial';
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: absolute;
     top: 15%;
     left: 5%;
@@ -53,10 +49,22 @@ nav a {
     background-position: center;    
 }
 
+figure p {
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    
+}
+
 .AboutMe {
     border: 10px solid black;
     margin: 10px;
     height: 500px;
+}
+
+section img {
+    height: 100%;
+    padding: 10px;
 }
 
 .MyWork {
