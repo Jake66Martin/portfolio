@@ -52,3 +52,15 @@ nav a {
     background-size: cover;
     background-position: center;    
 }
+
+.AboutMe {
+    border: 10px solid black;
+    margin: 10px;
+    height: 500px;
+}
+
+.MyWork {
+    border: 10px solid black;
+    margin: 10px;
+    height: 1000px;
+}
