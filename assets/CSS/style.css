@@ -14,7 +14,7 @@ nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
 }
 
 nav p {
@@ -24,6 +24,9 @@ nav p {
     position: absolute;
     top: 15%;
     left: 5%;
+    border: 10px solid white;
+    border-radius: 15px;
+    padding: 0 10px;
 }
 
 nav img {
@@ -39,6 +42,9 @@ nav a {
     position: absolute;
     left: 81%;
     top: 15%;
+    border: 10px solid white;
+    border-radius: 15px;
+    padding: 0 10px;
 }
 
 .lightning {
@@ -53,6 +59,7 @@ figure p {
     color: white;
     text-align: center;
     line-height: 300px;
+    font-size: 50px;
     
 }
 
@@ -60,6 +67,7 @@ figure p {
     border: 10px solid black;
     margin: 10px;
     height: 500px;
+    border-radius: 15px;
 }
 
 section img {
@@ -71,4 +79,5 @@ section img {
     border: 10px solid black;
     margin: 10px;
     height: 1000px;
+    border-radius: 15px;
 }
