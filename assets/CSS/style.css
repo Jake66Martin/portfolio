@@ -15,6 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 1;
 }
 
 nav p {
@@ -37,6 +38,7 @@ nav img {
 
 nav a {
     font-size: 50px;
+    font-family: 'helvetica', 'arial';
     color: white;
     text-decoration: none;
     position: absolute;
@@ -60,6 +62,7 @@ figure p {
     text-align: center;
     line-height: 300px;
     font-size: 50px;
+    font-family: 'helvetica', 'arial';
     
 }
 
@@ -68,11 +71,29 @@ figure p {
     margin: 10px;
     height: 500px;
     border-radius: 15px;
+    position: relative;
 }
 
 section img {
     height: 100%;
+    width: 25%;
     padding: 10px;
+}
+
+.AboutMe > p {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'helvetica', 'arial';
+    position: absolute;
+    left: 60%;
+    top: 0%;
+}
+
+.AboutMe div p {
+    font-size: 40px;
+    position: absolute;
+    left: 27%;
+    top: 15%;
 }
 
 .MyWork {
