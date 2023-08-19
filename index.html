@@ -9,15 +9,20 @@
 <body>
     <header>
         <nav>
-            <p>Jacob Fournier-Martin</p>
-            <img src="./assets/Images/little-lightning.jpg">
-            <a href="#">Menu</a>
+            <div><p>Jacob Fournier-Martin</p></div>
+            <div><img src="./assets/Images/little-lightning.jpg"></div>
+            <div class="nav-div">
+                <a href="#aboutme">About Me</a>
+                <a href="#mywork"> My Work</a>
+                <a href="#contactme">Contact Me</a>
+                <a href="#myresume">My Resume</a>
+            </div>
         </nav>
         <figure class="lightning"><h1>Welcome!</h1></figure>
     </header>
     <main>
-        <section class="AboutMe">
-            <img src="./assets/Images/jacob.jpg">
+        <section class="AboutMe" id="aboutme">
+            <img class="me" src="./assets/Images/jacob.jpg">
             <h2>About Me</h2>
               <div>
                 <p>Hello everybody! My name is Jacob Fournier-Martin. I am a 31 
@@ -31,18 +36,17 @@
                 </p>
             </div>
         </section>
-        <section class="MyWork">
+        <section class="MyWork" id="mywork">
             <h2>My work</h2>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section class="hori"><img class="pic" src="./assets/Images/horiseon.jpg" alt="horiseon accessability"> </section>
+            <section class="work"><img src="./assets/Images/place-holder.jpg" alt="place-holder"><img src="./assets/Images/place-holder.jpg"></section>
+            <section class ="work"><img src="./assets/Images/place-holder.jpg"><img src="./assets/Images/place-holder.jpg"></section>
         </section>
-        <section class="ContactMe">
+        <section class="ContactMe" id="contactme">
             <h2>Contact Me</h2>
         </section>
-        <section class="MyResume">
+        <section class="MyResume" id="myresume">
+            <h2>My Resume</h2>
         </section>
     </main>
     <footer>
