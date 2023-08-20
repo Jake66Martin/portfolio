@@ -179,9 +179,62 @@ figure h1 {
     line-height: 300px;
 }
 
+@media screen and (max-width: 1420px) {
+    nav p {
+        font-size: 20px;
+    }
+
+    .AboutMe div p {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 1084px) {
     nav p {
         font-size: 15px;
+    }
+
+    .AboutMe {
+        height: 250px;
+    }
+
+    .AboutMe h2, .MyWork h2, .ContactMe h2, .MyResume h2, figure h1 {
+        font-size: 20px;
+    }
+
+    .AboutMe div p {
+        font-size: 15px;
+    }
+
+    .MyWork{
+        height: 650px;
+    }
+  
+    .pic {
+        height: 200px;
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .work img {
+        width: 200px;
+        padding: 20px;
+    }
+
+    .MyResume {
+        height: 200px;
+    }
+
+    .MyResume p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .me {
+        height: 55%;
     }
 }
 
