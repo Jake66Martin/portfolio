@@ -103,7 +103,7 @@ figure h1 {
 .MyWork {
     border: 10px solid black;
     margin: 10px;
-    height: 1300px;
+    height: 1000px;
     border-radius: 15px;
     position: relative;
 }
@@ -146,7 +146,7 @@ figure h1 {
 
 .text-block {
     position: absolute;
-    top: 0;;
+    top: 0;
     left: 0;
     background-color: black;
     color: white;
@@ -262,5 +262,19 @@ figure h1 {
     nav a {
         display: block;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    nav p {
+        font-size: 10px;
+    }
+
+    .AboutMe div p {
+        font-size: 12px;
+    }
+
+    .text-block {
+        left: 20px;
     }
 }
