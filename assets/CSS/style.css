@@ -1,3 +1,4 @@
+/* variables for more efficient use */
 :root {
     --border-radius: 15px;
     --font-family: 'helvetica', 'arial';
@@ -5,6 +6,7 @@
     --color-black: black;
 }
 
+/* to reset default settings */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -207,6 +209,9 @@ footer {
     width: 100%;
     height: 100px;
 }
+
+/* This is my media query in order to make the page responsive for any browser size
+on laptop as well as the galaxy S20 ultra */
 
 @media screen and (max-width: 1420px) {
     nav p {
