@@ -118,6 +118,7 @@ figure h1 {
 .hori {
     display: flex;
    justify-content: center;
+   position: relative;
 }
 
 .pic {
@@ -135,8 +136,23 @@ figure h1 {
 
 .work img {
     width: 400px;
+    height: 200px;
     padding: 20px;
 }
+
+.pic-title {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 0;;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 .ContactMe {
     border: 10px solid black;
