@@ -295,4 +295,22 @@ on laptop as well as the galaxy S20 ultra */
     .text-block {
         left: 20px;
     }
+
+    .ContactMe div a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pic {
+        width: 200px;
+    }
+
+    .work div img {
+        width: 150px;
+    }
+
+    .ContactMe {
+        font-size: 10px;
+    }
 }
