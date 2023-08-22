@@ -302,6 +302,15 @@ on laptop as well as the galaxy S20 ultra */
 }
 
 @media screen and (max-width: 360px) {
+    
+    .nav-div a {
+        font-size: 12px;
+    }
+
+    .AboutMe div p {
+        font-size: 12px;
+    }
+    
     .pic {
         width: 200px;
     }
@@ -313,4 +322,6 @@ on laptop as well as the galaxy S20 ultra */
     .ContactMe {
         font-size: 10px;
     }
+
+   
 }
